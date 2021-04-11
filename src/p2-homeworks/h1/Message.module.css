@@ -1,0 +1,44 @@
+.messageComponent {
+    display: flex; /*размещает элементы по порядку*/
+
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.content {
+    background: rgba(38, 37, 45, 0.5);
+    color: aliceblue;
+    padding: 2px;
+    border-radius: 10px 10px 10px 0px;
+    padding: 10px;
+
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+}
+
+.name {
+    color: mediumslateblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.time {
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.angle {
+    width: 20px;
+    height: 20px;
+    background: rgba(38, 37, 45, 0.5);
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 20px, rgba(38, 37, 45, 0.5) 0px);
+}
+
+.message{
+    word-wrap: break-word;
+}
