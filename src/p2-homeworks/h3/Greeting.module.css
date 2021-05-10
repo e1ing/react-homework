@@ -4,4 +4,11 @@
 
 .error {
     border: 1px solid red;
+    outline: none;
 }
+
+.inputClass{
+    border: 1px solid darkslategray;
+    outline: none;
+}
+
