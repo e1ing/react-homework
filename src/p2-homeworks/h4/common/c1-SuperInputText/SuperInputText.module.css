@@ -1,5 +1,6 @@
 .superInput {
-
+    border: 1px solid #cccccc;
+    border-radius: 3px;
 }
 
 .errorInput {
