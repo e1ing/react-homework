@@ -1,18 +1,76 @@
+@keyframes blink{
+    0%{
+        left: -130%;
+    }
+    100% {
+        left: 130%;
+    }
+}
+
 .default {
-    -webkit-writing-mode: horizontal-tb !important;
-    -webkit-appearance: button;
-    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
-    border-style: solid;
-    border-width: 1px;
-    padding: 1px 7px 2px;
-    text-rendering: auto;
-    color: initial;
-    display: inline-block;
-    text-align: start;
-    margin: 0em;
-    font: 400 11px system-ui;
+    background: #c0d4ec;
 }
 
 .red {
-    background: red;
+    background: #3d5dfc;
 }
+
+.button {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button::after {
+display: block;
+    content: "";
+    position: absolute;
+    left: -130%;
+    top:0;
+    height: 100%;
+    width: 20%;
+
+    transform: skew(45deg);
+    background-color: #c0d4ec;
+    opacity: 0.7;
+
+    z-index:14;
+}
+
+.button:hover::after{
+    animation: blink 0.35s ease;
+}
+
+.button:hover::before{
+    display:block;
+    content:"";
+    position: absolute;
+
+    left: -100vw;
+    top: 0;
+    height: 100vh;
+width:300vw;
+
+    background-color: lightblue;
+    opacity: 0.2;
+    z-index: 7;
+}
+
+.button:focus{
+    outline: solid 1px;
+}
+
+.button:active{
+    background: #c0d4ec;
+}
+
+button:disabled{
+    color: bisque;
+    cursor:auto;
+}
+
+.button:disabled::after{
+    z-index: -1;
+}
+

@@ -1,11 +1,17 @@
+.input:focus{
+    outline: none;
+    border: coral solid 2px;
+}
+
 .superInput {
-    border: 1px solid #cccccc;
+    border: 1px solid #d027f1;
     border-radius: 3px;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    margin: 10px;
+    border: 3px solid #0f36c6;
+    background: #ffffff;
 }
 
 .error {
