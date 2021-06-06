@@ -5,7 +5,7 @@
 }
 
 .checkbox {
-appearance: none; /*вырезает внешний вид*/
+/*appearance: none;*/ /*вырезает внешний вид*/
     width: 20px;
     height: 20px;
     margin-right: 10px;
@@ -13,8 +13,8 @@ appearance: none; /*вырезает внешний вид*/
 }
 
 .checkbox:checked{
-    appearance: none;
-    background-image: url("unnamed.png");
+   /* appearance: none;*/
+    /*background-image: url("unnamed.png");*/
 }
 
 checkbox:focus{
