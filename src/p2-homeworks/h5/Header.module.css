@@ -1,8 +1,8 @@
 .header{
-display: flex;
-    width: 200px;
+    display: flex;
+    width: 400px;
     transition-duration: 500ms;
-    transform: translate(-230px);
+    transform: translate(-340px);
 }
 .header:hover{
     transition-duration: 500ms;
@@ -28,9 +28,9 @@ color: #8a15bf;
 }
 
 .menuBtn{
-    width: 60px;
-    height: 80px;
-    background: #8a15bf;
+    width: 50px;
+    height: 59px;
+    background: #8827cb;
 }
 
 
