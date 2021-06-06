@@ -1,0 +1,24 @@
+.label{
+cursor: pointer
+}
+
+.radio{
+    appearance: none;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none /*убивает цвет, стиль и толщину внешней границы на всех четырёх сторонах*/
+}
+
+.radio:hover {
+    border: 2px solid #7d8ce5;
+}
+
+.radio:checked{
+    background: lightskyblue;
+}
+
+.radio:focus{
+    border: 2px solid #8a15bf;
+}

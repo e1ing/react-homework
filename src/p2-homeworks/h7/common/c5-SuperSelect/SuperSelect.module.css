@@ -1,0 +1,35 @@
+.select{
+    width: 100px;
+    padding: 5px;
+    padding-right: 30px;
+    cursor: pointer;
+    appearance: none; /*убирает стандартный вид элемента*/
+    background-color: lightskyblue;
+    background-image: url("https://vjoy.cc/wp-content/uploads/2019/11/5d3f108910b0b213679691.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-position:  right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    border: 2px inset #0e3f89;
+    color: blueviolet;
+}
+
+.select:focus{
+    outline: none;
+    border: blueviolet solid 2px;
+}
+
+.option{
+    color: #0e54af;
+    background: lightskyblue;
+}
+
+.option:checked{ /*выбранный элемент*/
+    color: #0c54a3;
+    background: lightskyblue;
+}
+
+.option:hover{
+    box-shadow: 0 0 10px 100px #c88ce7 inset;
+    transition: all .2s ease-in-out;
+    background: #c3a9d0;
+}
