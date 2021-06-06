@@ -1,0 +1,36 @@
+.header{
+display: flex;
+    width: 200px;
+    transition-duration: 500ms;
+    transform: translate(-230px);
+}
+.header:hover{
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+.nav{
+    text-decoration: none; /*убрать подчёркивание ссылки*/
+    background-color: #a0b1e3;
+    padding: 20px;
+    float:left;
+    font-weight:bold;
+    margin-bottom:6px;
+    font-family: Noto Sans, sans-serif;
+}
+
+.nav:hover{
+    background-color: #d0c2e3;
+    font-style: oblique;
+}
+
+.activeNav{
+color: #8a15bf;
+}
+
+.menuBtn{
+    width: 60px;
+    height: 80px;
+    background: #8a15bf;
+}
+
+
